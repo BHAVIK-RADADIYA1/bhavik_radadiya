@@ -18,11 +18,15 @@ import {
   meta,
   starbucks,
   tesla,
+  redsoft,
   shopify,
   carrent,
   jobit,
+  crypto,
+  filmpire,
   tripguide,
   threejs,
+  logikshub,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +122,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Logikshub",
-    icon: tesla,
+    icon: logikshub,
     iconBg: "#E6DEDD",
     date: "Aug 2021 - May 2022",
     points: [
@@ -129,7 +133,7 @@ const experiences = [
   {
     title: "Full Stack Developer Intern",
     company_name: "Red Software",
-    icon: starbucks,
+    icon: redsoft,
     iconBg: "#383E56",
     date: "Jun 2022 - Aug 2022",
     points: [
@@ -214,50 +218,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: filmpire,
     source_code_link: "https://github.com/BHAVIK-RADADIYA1/filmpire",
   },
   {
-    name: "Job IT",
+    name: "Online Transaction System Using Blockchain",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Online Transaction System Using Blockchain is a Payment Transfer Application using Blockchain.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Solidity",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Blockchain",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: crypto,
+    source_code_link:
+      "https://github.com/BHAVIK-RADADIYA1/Online-Transaction-System-Using-Blockchain",
   },
 ];
 

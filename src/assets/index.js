@@ -25,9 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import logikshub from "./company/logikshub.jpg";
+import redsoft from "./company/redsoft.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import crypto from "./crypto.png";
+import filmpire from "./filmpire.png";
+
 import tripguide from "./tripguide.png";
 
 export {
@@ -56,7 +61,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  logikshub,
+  redsoft,
   carrent,
   jobit,
+  crypto,
+  filmpire,
   tripguide,
 };
